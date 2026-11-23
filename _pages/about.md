@@ -1,70 +1,165 @@
 ---
+layout: profile
 permalink: /
-title: "About Me"
-author_profile: true
+title: "Home"
+description: "Yuxiao Li is a Ph.D. researcher at Northeastern University working on machine learning for nanophotonics, metasurfaces, and optical computing."
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<style>
-.yl-hero { margin:0 0 2.1rem; padding:1.7rem 1.8rem; border:1px solid #dbe7f3; border-radius:17px; background:linear-gradient(135deg,#f0f6ff 0%,#fff 70%,#f2fbfa 100%); }
-.yl-kicker { margin:0 0 .65rem; color:#2463a2; letter-spacing:.12em; font-size:.7rem; font-weight:750; text-transform:uppercase; }
-.yl-hero h1 { font-size:2.5rem; line-height:1.15; margin:0 0 .65rem; color:#142b43; }
-.yl-lead { font-size:1rem; line-height:1.8; color:#42586d; margin-bottom:1.2rem; }
-.yl-actions { display:flex; flex-wrap:wrap; gap:.65rem; }
-.yl-actions a { display:inline-block; padding:.52rem .9rem; border-radius:8px; background:#215e9c; color:#fff!important; font-size:.84rem; font-weight:650; text-decoration:none!important; }
-.yl-actions a.yl-secondary { background:#e5eef7; color:#21527f!important; }
-.yl-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; margin:1.1rem 0 2rem; }
-.yl-card { border:1px solid #e0e7ed; border-radius:13px; padding:1.05rem 1.1rem; background:#fff; }
-.yl-card h3 { font-size:1rem; margin:.15rem 0 .55rem; color:#1c3651; }
-.yl-card p { font-size:.88rem; color:#4d6070; line-height:1.65; margin:0 0 .7rem; }
-.yl-card a { font-size:.83rem; font-weight:650; }
-.yl-num { font-size:.69rem; font-weight:800; letter-spacing:.09em; color:#4684a1; }
-.yl-pub { margin:.8rem 0 1.1rem; padding-left:1rem; border-left:3px solid #d6e6f3; }
-.yl-pub strong { font-size:.93rem; }
-.yl-pub small { display:block; margin-top:.25rem; color:#677889; }
-@media(max-width:660px) { .yl-grid{grid-template-columns:1fr} .yl-hero{padding:1.2rem} .yl-hero h1{font-size:2rem} }
-</style>
+<section class="hero" aria-labelledby="hero-heading">
+  <div class="shell hero-inner">
+    <div class="hero-content">
+      <div class="hero-eyebrow"><span class="signal-dot"></span> Ph.D. Researcher · Northeastern University</div>
+      <h1 id="hero-heading">Teaching machines<br>to <span>understand light.</span></h1>
+      <p class="hero-subtitle">I'm <strong>Yuxiao Li</strong>, a Ph.D. student in Electrical Engineering advised by <strong>Prof. Yongmin Liu</strong>. My research brings together machine learning, computational nanophotonics, and optical computing — building intelligent tools to model and design light.</p>
+      <div class="hero-buttons">
+        <a class="btn-primary" href="{{ '/research/' | relative_url }}">Explore my research <span aria-hidden="true">↗</span></a>
+        <a class="btn-outline" href="{{ '/publications/' | relative_url }}">Selected papers <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-social">
+        <a href="mailto:li.yuxiao@northeastern.edu">Email ↗</a><span class="sep"></span>
+        <a href="https://github.com/YuxiaoLee" target="_blank" rel="noopener noreferrer">GitHub ↗</a><span class="sep"></span>
+        <a href="{{ '/cv/' | relative_url }}">Curriculum Vitae ↗</a>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="art-orbit">
+        <svg viewBox="0 0 440 440" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <radialGradient id="rfill"><stop stop-color="#9bd4ff" stop-opacity=".38"/><stop offset=".7" stop-color="#648aff" stop-opacity=".08"/><stop offset="1" stop-color="#648aff" stop-opacity="0"/></radialGradient>
+            <linearGradient id="rstroke" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7ab4ff"/><stop offset=".5" stop-color="#a2a8ff"/><stop offset="1" stop-color="#70e3d6"/></linearGradient>
+          </defs>
+          <circle cx="220" cy="220" r="177" fill="url(#rfill)"/>
+          <g stroke="#8da8e2" fill="none" stroke-width=".7" opacity=".42">
+            <ellipse cx="220" cy="220" rx="174" ry="66" transform="rotate(27 220 220)"/>
+            <ellipse cx="220" cy="220" rx="174" ry="66" transform="rotate(77 220 220)"/>
+            <ellipse cx="220" cy="220" rx="174" ry="66" transform="rotate(128 220 220)"/>
+            <ellipse cx="220" cy="220" rx="122" ry="122" stroke-dasharray="4 9"/>
+            <ellipse cx="220" cy="220" rx="64" ry="64"/>
+          </g>
+          <g stroke="url(#rstroke)" stroke-width="2.8" fill="none" stroke-linecap="round">
+            <path d="M45 219C95 219 106 132 157 132C208 132 218 309 274 309C327 309 334 215 395 215"/>
+            <path d="M47 220C99 220 111 290 160 290C209 290 224 145 274 145C330 145 346 223 393 223" opacity=".65"/>
+            <path d="M95 130C160 160 151 272 220 275C283 278 279 160 341 148" opacity=".6"/>
+          </g>
+          <g fill="#8ad6ff"><circle cx="157" cy="132" r="6"/><circle cx="274" cy="309" r="6"/><circle cx="220" cy="220" r="9" fill="#9deee1"/></g>
+          <circle cx="220" cy="220" r="17" fill="none" stroke="#bfe5ff" opacity=".8"/>
+          <g fill="#a8c8ed" opacity=".75"><circle cx="65" cy="180" r="2"/><circle cx="368" cy="153" r="2.5"/><circle cx="328" cy="332" r="2"/><circle cx="115" cy="330" r="2"/></g>
+        </svg>
+      </div>
+      <div class="art-small">COMPUTATIONAL PHOTONICS</div>
+      <div class="art-label art-label-top">Physics-informed intelligence <span aria-hidden="true">✦</span></div>
+      <div class="art-label art-label-bottom"><strong>Electromagnetic fields</strong><span>Modeling · Learning · Design</span></div>
+    </div>
+  </div>
+</section>
 
-<div class="yl-hero">
-  <p class="yl-kicker">Northeastern University · Boston</p>
-  <h1>Yuxiao Li</h1>
-  <p class="yl-lead">I am a Ph.D. student in Electrical Engineering at <strong>Northeastern University</strong>, advised by <strong>Prof. Yongmin Liu</strong>. My research is at the intersection of <strong>artificial intelligence, nanophotonics, and optical computing</strong>. I develop learning-based models for complex optical systems and explore how photonics can enable new ways to process and encode information.</p>
-  <div class="yl-actions">
-    <a href="{{ site.baseurl }}/research/">Research Projects</a>
-    <a class="yl-secondary" href="{{ site.baseurl }}/publications/">Publications</a>
-    <a class="yl-secondary" href="mailto:li.yuxiao@northeastern.edu">Contact</a>
+<div class="hero-bottom">
+  <div class="shell hero-bottom-inner">
+    <span class="hero-bottom-label">Research at a glance</span>
+    <div class="hero-bottom-item"><span>01</span> Physics-aware ML</div>
+    <div class="hero-bottom-item"><span>02</span> Inverse design</div>
+    <div class="hero-bottom-item"><span>03</span> Optical computing</div>
   </div>
 </div>
 
-## Research Interests
+<section class="section shell" id="about">
+  <div class="about-grid">
+    <div class="about-copy">
+      <div class="eyebrow">01 / About me</div>
+      <h2 class="section-title">Curiosity about light.<br>Driven by intelligent design.</h2>
+      <p>I am a researcher in the <strong>Department of Electrical and Computer Engineering at Northeastern University</strong>, where I work with <strong>Prof. Yongmin Liu</strong>.</p>
+      <p>My research asks a simple question: <strong>How can we use machine learning to understand and design complex optical systems more efficiently?</strong> I develop neural models for metasurfaces and nanophotonic structures, explore inverse design with generative AI, and investigate optical information processing.</p>
+      <a class="text-link" href="{{ '/cv/' | relative_url }}">More about my background <span class="arrow" aria-hidden="true">↗</span></a>
+    </div>
+    <aside class="about-side" aria-label="Education">
+      <div class="about-side-head">Academic path</div>
+      <div class="timeline-entry">
+        <small>2024 — PRESENT</small>
+        <strong>Ph.D. · Electrical Engineering</strong>
+        <p>Northeastern University<br>Advisor: Prof. Yongmin Liu</p>
+      </div>
+      <div class="timeline-entry">
+        <small>GRADUATE</small>
+        <strong>M.S. · Electrical &amp; Computer Engineering</strong>
+        <p>Northeastern University</p>
+      </div>
+      <div class="timeline-entry">
+        <small>UNDERGRADUATE</small>
+        <strong>B.Eng. · Electronic Information Engineering</strong>
+        <p>Xidian University</p>
+      </div>
+    </aside>
+  </div>
+</section>
 
-My work combines data-driven learning with electromagnetic physics, emphasizing efficient prediction, inverse design, and generalization.
+<section class="section research-section" id="research">
+  <div class="shell">
+    <div class="section-head">
+      <div><div class="eyebrow">02 / Research</div><h2>What I'm working on<span style="color:#627fe7">.</span></h2></div>
+      <a class="text-link" href="{{ '/research/' | relative_url }}">All research projects <span class="arrow" aria-hidden="true">↗</span></a>
+    </div>
+    <div class="project-grid">
+      <article class="project-card">
+        <div class="project-art art-gnn">{% include research-art.html kind="gnn" %}<span class="art-caption">Graph-based field models</span></div>
+        <div class="project-meta">Physics-aware AI · 01</div>
+        <h3>Coupling-aware metasurface modeling</h3>
+        <p>Multimodal graph learning and Maxwell-informed models for electromagnetic coupling in spatially varying metasurfaces.</p>
+        <a class="text-link" href="{{ '/research/' | relative_url }}#coupling">Explore project <span class="arrow" aria-hidden="true">↗</span></a>
+      </article>
+      <article class="project-card">
+        <div class="project-art art-generative">{% include research-art.html kind="generative" %}<span class="art-caption">Inverse spectral design</span></div>
+        <div class="project-meta">Generative AI · 02</div>
+        <h3>Generative nanophotonic inverse design</h3>
+        <p>Conditional generative models combined with tandem networks to design optical responses on demand.</p>
+        <a class="text-link" href="{{ '/research/' | relative_url }}#generative">Explore project <span class="arrow" aria-hidden="true">↗</span></a>
+      </article>
+      <article class="project-card">
+        <div class="project-art art-optical">{% include research-art.html kind="optical" %}<span class="art-caption">Diffractive information processing</span></div>
+        <div class="project-meta">Optical computing · 03</div>
+        <h3>Optical neural networks &amp; generative optics</h3>
+        <p>Optical encoders and computational systems built with diffractive components and spatial light modulators.</p>
+        <a class="text-link" href="{{ '/research/' | relative_url }}#optical">Explore project <span class="arrow" aria-hidden="true">↗</span></a>
+      </article>
+      <article class="project-card">
+        <div class="project-art art-surrogate">{% include research-art.html kind="surrogate" %}<span class="art-caption">Adaptable engineering AI</span></div>
+        <div class="project-meta">Neural surrogates · 04</div>
+        <h3>Transferable engineering surrogates</h3>
+        <p>Flexible neural models and parameter-efficient adaptation for prediction across changing engineering schemas.</p>
+        <a class="text-link" href="{{ '/research/' | relative_url }}#surrogates">Explore project <span class="arrow" aria-hidden="true">↗</span></a>
+      </article>
+    </div>
+  </div>
+</section>
 
-<div class="yl-grid">
-  <div class="yl-card"><div class="yl-num">01 / PHYSICS-AWARE AI</div><h3>Coupling-Aware Metasurfaces</h3><p>Multimodal graph neural networks, isolated-cell field priors, and Maxwell-informed losses for nonlocal metasurfaces.</p><a href="{{ site.baseurl }}/research/#coupling-aware-metasurface-modeling">Explore →</a></div>
-  <div class="yl-card"><div class="yl-num">02 / GENERATIVE DESIGN</div><h3>Nanophotonic Inverse Design</h3><p>Conditional generative models and tandem networks for targeted optical responses under nonuniqueness.</p><a href="{{ site.baseurl }}/research/#generative-nanophotonic-inverse-design">Explore →</a></div>
-  <div class="yl-card"><div class="yl-num">03 / OPTICAL COMPUTING</div><h3>Diffractive Optical Neural Networks</h3><p>Free-space optical computing, spatial light modulators, and physically realizable optical encoders.</p><a href="{{ site.baseurl }}/research/#optical-neural-networks-and-generative-optics">Explore →</a></div>
-  <div class="yl-card"><div class="yl-num">04 / ENGINEERING AI</div><h3>Neural Surrogates</h3><p>Adaptable surrogate models for engineering design, including schema-aware models and efficient adaptation.</p><a href="{{ site.baseurl }}/research/#adaptable-neural-surrogates">Explore →</a></div>
-</div>
+<section class="section shell" id="publications">
+  <div class="section-head">
+    <div><div class="eyebrow">03 / Publications</div><h2>Selected writing &amp; research<span style="color:#627fe7">.</span></h2></div>
+    <a class="text-link" href="{{ '/publications/' | relative_url }}">All publications <span class="arrow" aria-hidden="true">↗</span></a>
+  </div>
+  <div class="publication-list">
+    <article class="publication-entry">
+      <span class="year">2026</span>
+      <div><h3><a href="https://doi.org/10.1063/5.0304955" target="_blank" rel="noopener noreferrer">Exceptional Points in Plasmonics: Fundamentals, Platforms, and Applications ↗</a></h3><p>Applied Physics Reviews</p></div><span class="pub-type">Journal</span>
+    </article>
+    <article class="publication-entry">
+      <span class="year">2025</span>
+      <div><h3><a href="https://arxiv.org/abs/2507.14761" target="_blank" rel="noopener noreferrer">On-Demand Inverse Design for Narrowband Nanophotonic Structures Based on Generative Model and Tandem Network ↗</a></h3><p>arXiv:2507.14761</p></div><span class="pub-type">Preprint</span>
+    </article>
+    <article class="publication-entry">
+      <span class="year">2024</span>
+      <div><h3><a href="https://doi.org/10.1063/5.0215752" target="_blank" rel="noopener noreferrer">Fundamentals and Recent Developments of Free-Space Optical Neural Networks ↗</a></h3><p>Journal of Applied Physics</p></div><span class="pub-type">Journal</span>
+    </article>
+  </div>
+</section>
 
-## Selected Publications
-
-<div class="yl-pub"><strong><a href="https://arxiv.org/abs/2507.14761">On-Demand Inverse Design for Narrowband Nanophotonic Structures Based on Generative Model and Tandem Network</a></strong><small>Yuxiao Li et al. · arXiv preprint · 2025</small></div>
-<div class="yl-pub"><strong><a href="https://doi.org/10.1063/5.0304955">Exceptional Points in Plasmonics: Fundamentals, Platforms, and Applications</a></strong><small>Applied Physics Reviews · 2026</small></div>
-<div class="yl-pub"><strong><a href="https://doi.org/10.1063/5.0215752">Fundamentals and Recent Developments of Free-Space Optical Neural Networks</a></strong><small>Journal of Applied Physics · 2024</small></div>
-
-[View all publications]({{ site.baseurl }}/publications/)
-
-## Education
-
-- **Ph.D. in Electrical Engineering** — Northeastern University, 2024–present. Advisor: Prof. Yongmin Liu.
-- **M.S. in Electrical and Computer Engineering** — Northeastern University.
-- **B.Eng. in Electronic Information Engineering** — Xidian University.
-
-## Contact
-
-I am based in Boston, Massachusetts. I welcome discussions and collaborations on physics-aware AI, nanophotonic design, and optical computing.
-
-**Email:** [li.yuxiao@northeastern.edu](mailto:li.yuxiao@northeastern.edu) · **GitHub:** [YuxiaoLee](https://github.com/YuxiaoLee)
+<section class="home-contact">
+  <div class="shell">
+    <div class="contact-panel">
+      <div><div class="eyebrow">Let's connect</div><h2>Interested in a collaboration?</h2><p>I'm happy to discuss ideas across AI, nanophotonics, and optical computing.</p></div>
+      <a class="btn-primary" href="mailto:li.yuxiao@northeastern.edu">Start a conversation <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+</section>
