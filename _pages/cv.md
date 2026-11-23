@@ -1,64 +1,48 @@
 ---
-layout: archive
-title: "CV"
+layout: single
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+## Education
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**Northeastern University** — Boston, MA  
+Ph.D. in Electrical Engineering · 2024–present  
+Advisor: Prof. Yongmin Liu
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**Northeastern University** — Boston, MA  
+M.S. in Electrical and Computer Engineering
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**Xidian University** — Xi'an, China  
+B.Eng. in Electronic Information Engineering
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Research Experience
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+**Graduate Researcher · Northeastern University** · 2024–present
+
+- Develop multimodal graph neural networks for coupling-aware near-field prediction in spatially varying metasurfaces.
+- Investigate physics-informed machine learning, Maxwell loss functions, and out-of-distribution generalization in nanophotonics.
+- Use generative and tandem neural models for inverse design of optical responses.
+- Study free-space optical neural networks and spatial-light-modulator-based optical generative systems.
+- Develop transferable machine-learning surrogates for parameterized engineering design.
+
+## Teaching
+
+**EECE 5644 — Introduction to Machine Learning and Pattern Recognition**, Northeastern University.  
+Recitation materials covering Python, statistics, Bayesian classification, regression, regularization, and model evaluation.  
+[Course materials](https://github.com/YuxiaoLee/EECE5644_Recitation)
+
+## Technical Skills
+
+- **Machine Learning:** PyTorch, GNNs, CNNs, Transformers, VAEs, neural surrogates, LoRA, physics-informed learning.
+- **Scientific Computing:** Python, NumPy, SciPy, pandas, scikit-learn, data visualization.
+- **Computational Photonics:** FDTD, metasurface modeling, Maxwell equations, angular-spectrum propagation, optical neural networks.
+
+## Publications
+
+For the current research record, see [Publications]({{ site.baseurl }}/publications/).
+
+**Contact:** [li.yuxiao@northeastern.edu](mailto:li.yuxiao@northeastern.edu)
