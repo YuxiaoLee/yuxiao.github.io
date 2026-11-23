@@ -1,36 +1,24 @@
 ---
-layout: archive
+layout: single
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+## Peer-reviewed Articles
 
-{% include base_path %}
+**Taeyoon Kim, Yuxiao Li, and Yongmin Liu.**  
+"Exceptional Points in Plasmonics: Fundamentals, Platforms, and Applications."  
+*Applied Physics Reviews*, 2026. [DOI](https://doi.org/10.1063/5.0304955)
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+**Alexander Montes McNeil, Yuxiao Li, Allen Zhang, Michael Moebius, and Yongmin Liu.**  
+"Fundamentals and Recent Developments of Free-Space Optical Neural Networks."  
+*Journal of Applied Physics*, 2024. [DOI](https://doi.org/10.1063/5.0215752)
 
+## Preprints
 
+**Yuxiao Li, Taeyoon Kim, Allen Zhang, Zengbo Wang, and Yongmin Liu.**  
+"On-Demand Inverse Design for Narrowband Nanophotonic Structures Based on Generative Model and Tandem Network."  
+*arXiv:2507.14761*, 2025. [Read preprint](https://arxiv.org/abs/2507.14761)
 
+Research projects still in development are described separately on the [Research]({{ site.baseurl }}/research/) page.
