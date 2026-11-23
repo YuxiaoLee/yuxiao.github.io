@@ -24,6 +24,7 @@ redirect_from:
     <div class="link-line" aria-label="Academic profiles and contact">
       <a href="https://scholar.google.com/citations?user=13Al7_kAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
       <a href="https://github.com/YuxiaoLee" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/yuxiao-li-44387524a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       <a href="{{ '/cv/' | relative_url }}">CV</a>
       <a href="mailto:li.yuxiao@northeastern.edu">Email</a>
     </div>
