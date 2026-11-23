@@ -13,8 +13,8 @@ redirect_from:
     <div class="eyebrow">Hello, I'm</div>
     <h1 id="intro-title">Yuxiao Li</h1>
     <div class="role">Ph.D. Student in Electrical Engineering · <a href="https://www.northeastern.edu/" target="_blank" rel="noopener noreferrer">Northeastern University</a></div>
-    <p class="lead">I work on <strong>scientific machine learning, electromagnetic surrogate modeling, and optical neural networks</strong>. My research explores how learning-based methods can predict, design, and optimize complex photonic systems.</p>
-    <p class="muted">I am advised by <strong>Prof. Yongmin Liu</strong> at Northeastern University in Boston (<a href="https://ymllab.sites.northeastern.edu/our-team/" target="_blank" rel="noopener noreferrer">Liu Lab</a>). Previously, I was a Machine Learning Engineering Intern at Mitsubishi Electric Research Laboratories (MERL), working on data-efficient surrogate models for electric machines.</p>
+    <p class="lead">I am a Ph.D. researcher advised by <strong>Prof. Yongmin Liu</strong>. My work focuses on <strong>scientific machine learning, nanophotonic inverse design, and optical computing</strong>, especially physics-aware neural models for electromagnetic systems.</p>
+    <p class="muted">I am part of the <a href="https://ymllab.sites.northeastern.edu/our-team/" target="_blank" rel="noopener noreferrer">Liu Lab</a> at Northeastern University. In 2026, I worked as a Machine Learning Engineering Intern at <strong>Mitsubishi Electric Research Laboratories (MERL)</strong> in Cambridge, MA.</p>
     <div class="internship">
       <div>
         <strong>Seeking Summer 2027 Internship Opportunities</strong>
@@ -30,7 +30,8 @@ redirect_from:
     </div>
   </div>
   <div class="portrait-wrap">
-    <img class="headshot" src="https://avatars.githubusercontent.com/u/141107580?v=4" alt="Yuxiao Li's GitHub profile photo" width="166" height="166">
+    <img class="headshot" src="https://ymllab.sites.northeastern.edu/files/2024/06/abdd3e00b2cfaadb7c89cfe705656cf1.jpg" alt="Portrait of Yuxiao Li from Yongmin Liu's laboratory website" width="166" height="166" decoding="async">
+    <a class="headshot-caption" href="https://ymllab.sites.northeastern.edu/our-team/" target="_blank" rel="noopener noreferrer">Photo: Liu Lab</a>
   </div>
 </section>
 
