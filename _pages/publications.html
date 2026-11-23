@@ -2,27 +2,31 @@
 layout: profile
 permalink: /publications/
 title: "Publications"
-description: "Selected peer-reviewed and preprint publications by Yuxiao Li."
+description: "Yuxiao Li — journal articles, conference papers and preprints in scientific machine learning, nanophotonics, and optical computing."
 ---
 
 <header class="page-header">
   <h1>Publications</h1>
-  <p>Selected journal articles, conference papers, and preprints. For the most up-to-date publication record, please visit <a href="https://scholar.google.com/citations?user=13Al7_kAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a>.</p>
+  <p>Journal and conference papers, plus research preprints. For the most recent updates see <a href="https://scholar.google.com/citations?user=13Al7_kAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a>.</p>
 </header>
 
 <div class="page-content">
   <h2>Journal &amp; Conference Papers</h2>
-  <ol class="pub-list">
-    <li><strong>Schema-Guided BERT-LoRA Framework for Continual Surrogate Modeling of Surface Permanent Magnet Motors</strong><div class="authors"><strong>Yuxiao Li</strong>, Toshiaki Koike-Akino, Ye Wang, Tatsuya Yamamoto, Yusuke Sakamoto, Bingnan Wang</div><div class="venue">IEEE Industrial Electronics Society (IECON), 2026</div><a href="https://shadow.merl.com/publications/TR2026-157" target="_blank" rel="noopener noreferrer">Paper ↗</a></li>
-    <li><strong>Unsupervised learning for non-Hermitian systems with higher-order hopping</strong><div class="venue">Physical Review B, 2026</div><a href="https://doi.org/10.1103/r3kn-d8ly" target="_blank" rel="noopener noreferrer">Paper ↗</a></li>
-    <li><strong>Exceptional Points in Plasmonics: Fundamentals, Platforms, and Applications</strong><div class="venue">Applied Physics Reviews, 2026</div><a href="https://doi.org/10.1063/5.0304955" target="_blank" rel="noopener noreferrer">Paper ↗</a></li>
-    <li><strong>CT-PatchTST: Channel-Time Patch Time-Series Transformer for Long-Term Renewable Energy Forecasting</strong><div class="venue">ISCIPT, 2025</div><a href="https://doi.org/10.1109/ISCIPT67144.2025.11265471" target="_blank" rel="noopener noreferrer">Paper ↗</a></li>
-    <li><strong>Fundamentals and recent developments of free-space optical neural networks</strong><div class="authors">Alexander Montes McNeil, <strong>Yuxiao Li</strong>, Allen Zhang, Michael Moebius, Yongmin Liu</div><div class="venue">Journal of Applied Physics, 2024</div><a href="https://doi.org/10.1063/5.0215752" target="_blank" rel="noopener noreferrer">Paper ↗</a></li>
-  </ol>
+  <div class="paper-list">
+  {% for p in site.data.papers %}
+    {% if p.type == "Journal & Conference" %}
+      {% include paper-row.html paper=p show_authors=true %}
+    {% endif %}
+  {% endfor %}
+  </div>
 
-  <h2>Preprints</h2>
-  <ol class="pub-list">
-    <li><strong>On-Demand Inverse Design for Narrowband Nanophotonic Structures Based on Generative Model and Tandem Network</strong><div class="authors"><strong>Yuxiao Li</strong>, Taeyoon Kim, Allen Zhang, Zengbo Wang, Yongmin Liu</div><div class="venue">arXiv:2507.14761, 2025</div><a href="https://arxiv.org/abs/2507.14761" target="_blank" rel="noopener noreferrer">arXiv ↗</a></li>
-  </ol>
-  <p class="small muted">Only selected works are included here; please refer to Google Scholar for the complete and current list.</p>
+  <h2 style="margin-top:40px">Preprints</h2>
+  <div class="paper-list">
+  {% for p in site.data.papers %}
+    {% if p.type == "Preprint" %}
+      {% include paper-row.html paper=p show_authors=true %}
+    {% endif %}
+  {% endfor %}
+  </div>
+  <p class="hero-research-note">Publication entries are shown once, rather than repeating the same work as a conference paper and a preprint. Thumbnail SVGs are conceptual topic illustrations, not figures extracted from those papers.</p>
 </div>

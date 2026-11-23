@@ -1,0 +1,15 @@
+{% assign p = include.paper %}
+<article class="paper-row">
+  <a class="paper-thumbnail" href="{{ p.url }}" target="_blank" rel="noopener noreferrer" aria-label="Open paper: {{ p.title | escape }}">
+    {% if p.external_image %}
+    <img src="{{ p.external_image }}" alt="{{ p.image_alt | escape }}" loading="lazy" width="152" height="98">
+    {% else %}
+    <img src="{{ p.image | relative_url }}" alt="{{ p.image_alt | escape }}" loading="lazy" width="152" height="98">
+    {% endif %}
+  </a>
+  <div class="paper-summary">
+    <p class="paper-venue">{{ p.year }} <span aria-hidden="true">·</span> {{ p.venue }}</p>
+    <h3><a href="{{ p.url }}" target="_blank" rel="noopener noreferrer">{{ p.title }} <span aria-hidden="true">↗</span></a></h3>
+    {% if include.show_authors %}<p class="paper-authors">{{ p.authors }}</p>{% endif %}
+  </div>
+</article>

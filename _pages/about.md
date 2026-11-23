@@ -59,10 +59,17 @@ redirect_from:
     <article class="item">
       <div class="item-date">Jan – May 2026</div>
       <div class="item-copy">
-        <h3>Machine Learning Engineering Intern</h3>
+        <div class="merl-row">
+          <a href="https://www.merl.com/" class="merl-logo" target="_blank" rel="noopener noreferrer" aria-label="MERL research laboratory website">
+            <img src="https://confcats-siteplex.s3.us-east-1.amazonaws.com/acc26/large_MERL_Logo_c4ece51c4a.png" alt="Mitsubishi Electric Research Laboratories logo" loading="lazy" width="135" height="95">
+          </a>
+          <div class="merl-description">
+            <h3>Machine Learning Engineering Intern</h3>
         <div class="meta">Mitsubishi Electric Research Laboratories (MERL) · Cambridge, MA</div>
         <p>Developed schema-guided DistilBERT and LoRA surrogates for permanent-magnet motor performance prediction across multiple design schemas. Explored continual adaptation with a shared backbone and lightweight task-specific adapters.</p>
-        <a class="sub-link" href="https://shadow.merl.com/publications/TR2026-157" target="_blank" rel="noopener noreferrer">Related publication ↗</a>
+        <a class="sub-link" href="https://www.merl.com/publications/TR2026-157" target="_blank" rel="noopener noreferrer">Related publication ↗</a>
+          </div>
+        </div>
       </div>
     </article>
     <article class="item">
@@ -77,28 +84,21 @@ redirect_from:
 </section>
 
 <section class="section" id="papers">
-  <div class="section-header"><h2>Selected Publications</h2><a class="inline-link" href="{{ '/publications/' | relative_url }}">All publications ↗</a></div>
-  <div class="item-list">
-    <article class="item"><div class="item-date">2026</div><div class="item-copy"><h3><a href="https://shadow.merl.com/publications/TR2026-157" target="_blank" rel="noopener noreferrer">Schema-Guided BERT-LoRA Framework for Continual Surrogate Modeling of Surface Permanent Magnet Motors ↗</a></h3><p>IEEE IECON, 2026.</p></div></article>
-    <article class="item"><div class="item-date">2026</div><div class="item-copy"><h3><a href="https://doi.org/10.1103/r3kn-d8ly" target="_blank" rel="noopener noreferrer">Unsupervised learning for non-Hermitian systems with higher-order hopping ↗</a></h3><p>Physical Review B, 2026.</p></div></article>
-    <article class="item"><div class="item-date">2025</div><div class="item-copy"><h3><a href="https://arxiv.org/abs/2507.14761" target="_blank" rel="noopener noreferrer">On-Demand Inverse Design for Narrowband Nanophotonic Structures Based on Generative Model and Tandem Network ↗</a></h3><p>arXiv preprint, 2025.</p></div></article>
-    <article class="item"><div class="item-date">2024</div><div class="item-copy"><h3><a href="https://doi.org/10.1063/5.0215752" target="_blank" rel="noopener noreferrer">Fundamentals and recent developments of free-space optical neural networks ↗</a></h3><p>Journal of Applied Physics, 2024.</p></div></article>
+  <div class="section-header"><h2>Publications</h2><a class="inline-link" href="{{ '/publications/' | relative_url }}">Publication details ↗</a></div>
+  <div class="paper-list">
+  {% for p in site.data.papers %}
+    {% if p.type == "Journal & Conference" %}
+      {% include paper-row.html paper=p %}
+    {% endif %}
+  {% endfor %}
   </div>
-</section>
-
-<section class="section" id="featured">
-  <div class="section-header"><h2>Featured Work</h2></div>
-  <div class="feature-paper">
-    <div>
-      <div class="figure-preview"><img src="https://aip.brightspotcdn.com/dims4/default/a69e2de/2147483647/strip/true/crop/960x540%2B0%2B0/resize/820x461%21/quality/90/?url=https%3A%2F%2Fk1-prod-aip.s3.us-east-2.amazonaws.com%2Fbrightspot%2F8c%2F14%2F37b00f8c43519e8c45f2d74f7679%2F4a8fb7070a554c55a17ce7c6ea8a19be" alt="Illustration accompanying the free-space optical neural networks review, published by the American Institute of Physics" loading="lazy"></div>
-      <div class="figure-credit">Image: <a href="https://www.aip.org/scilights/an-alternative-computing-technique-for-machine-learning" target="_blank" rel="noopener noreferrer">American Institute of Physics</a></div>
-    </div>
-    <div class="feature-copy">
-      <h3>Fundamentals and recent developments of free-space optical neural networks</h3>
-      <div class="meta">Journal of Applied Physics, 2024</div>
-      <p>A co-authored review surveying architectures, optical building blocks, and practical opportunities in free-space optical computing.</p>
-      <a class="sub-link" href="https://doi.org/10.1063/5.0215752" target="_blank" rel="noopener noreferrer">Read the paper ↗</a>
-    </div>
+  <div class="section-subhead"><h3>Preprint</h3></div>
+  <div class="paper-list">
+  {% for p in site.data.papers %}
+    {% if p.type == "Preprint" %}
+      {% include paper-row.html paper=p %}
+    {% endif %}
+  {% endfor %}
   </div>
 </section>
 

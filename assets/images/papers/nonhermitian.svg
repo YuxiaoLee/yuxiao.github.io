@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="250" viewBox="0 0 420 250" role="img" aria-label="Conceptual research illustration"><rect width="420" height="250" fill="#f7f9fb"/><g stroke-linecap="round" stroke-linejoin="round">
+<g stroke="#d4dde7" stroke-width="1.5"><path d="M54 35V212H380"/><path d="M54 89H380M54 155H380" stroke-dasharray="4 7"/></g>
+<path d="M57 157C108 156 104 52 158 61S234 195 282 178S340 69 380 82" fill="none" stroke="#47759d" stroke-width="4"/>
+<path d="M57 77C111 83 117 180 164 178S242 54 285 70S341 181 380 169" fill="none" stroke="#d98b80" stroke-width="4"/>
+<circle cx="220" cy="124" r="26" fill="none" stroke="#91adbc" stroke-dasharray="3 5" stroke-width="2"/>
+<circle cx="220" cy="124" r="5" fill="#7096b6"/>
+<path d="M205 116L235 132M205 132L235 116" stroke="#95aabb" stroke-width="1.4"/>
+</g></svg>

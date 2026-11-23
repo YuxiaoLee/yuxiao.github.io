@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="250" viewBox="0 0 420 250" role="img" aria-label="Conceptual research illustration"><rect width="420" height="250" fill="#f7f9fb"/><g stroke-linecap="round" stroke-linejoin="round">
+<rect x="36" y="57" width="132" height="135" rx="8" fill="#e1e8f0" stroke="#c8d6e1" stroke-width="2"/>
+<g fill="#aabcca"><circle cx="83" cy="93" r="20"/><path d="M52 167L83 128L114 151L141 111L156 168Z"/></g>
+<rect x="253" y="57" width="132" height="135" rx="8" fill="#edf3ed" stroke="#c9dacd" stroke-width="2"/>
+<g fill="#77af9f"><circle cx="300" cy="93" r="20"/><path d="M269 167L300 128L331 151L358 111L373 168Z"/></g>
+<g stroke="#7691a5" stroke-width="2.5" fill="none"><path d="M183 123H237"/><path d="M225 112L237 123L225 134"/></g>
+<g fill="none" stroke="#a5b8c8" stroke-width="2"><rect x="48" y="70" width="107" height="109" rx="2" stroke-dasharray="5 7"/><rect x="265" y="70" width="107" height="109" rx="2" stroke-dasharray="5 7"/></g>
+</g></svg>

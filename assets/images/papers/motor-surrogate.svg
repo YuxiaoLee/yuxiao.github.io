@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="250" viewBox="0 0 420 250" role="img" aria-label="Conceptual research illustration"><rect width="420" height="250" fill="#f7f9fb"/><g stroke-linecap="round" stroke-linejoin="round">
+<circle cx="110" cy="125" r="78" fill="#fff" stroke="#bbc9d8" stroke-width="6"/>
+<circle cx="110" cy="125" r="51" fill="none" stroke="#839cb0" stroke-width="16" stroke-dasharray="15 15"/>
+<circle cx="110" cy="125" r="24" fill="#eef3f7" stroke="#637e9c" stroke-width="5"/>
+<g fill="#d7e3eb" stroke="#7390a5" stroke-width="2"><path d="M94 97L102 85H118L126 97Z"/><path d="M94 153L102 165H118L126 153Z"/></g>
+<g fill="none" stroke="#547da1" stroke-width="2.5"><path d="M212 72H255M212 125H255M212 178H255"/></g>
+<g fill="#e0e8ef" stroke="#99afc4" stroke-width="1.5"><rect x="258" y="57" width="44" height="31" rx="5"/><rect x="258" y="110" width="44" height="31" rx="5"/><rect x="258" y="163" width="44" height="31" rx="5"/></g>
+<g stroke="#668aab" stroke-width="2"><path d="M302 72L337 125M302 125H337M302 178L337 125"/></g>
+<rect x="335" y="101" width="52" height="48" rx="7" fill="#d6e5ed" stroke="#769ab2" stroke-width="2"/>
+<path d="M346 125H375M360 111V139" stroke="#567c9c" stroke-width="3"/>
+</g></svg>
