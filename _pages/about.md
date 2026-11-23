@@ -14,7 +14,7 @@ redirect_from:
     <h1 id="intro-title">Yuxiao Li</h1>
     <div class="role">Ph.D. Student in Electrical Engineering · <a href="https://www.northeastern.edu/" target="_blank" rel="noopener noreferrer">Northeastern University</a></div>
     <p class="lead">I work on <strong>scientific machine learning, electromagnetic surrogate modeling, and optical neural networks</strong>. My research explores how learning-based methods can predict, design, and optimize complex photonic systems.</p>
-    <p class="muted">I am advised by <strong>Prof. Yongmin Liu</strong> at Northeastern University in Boston. Previously, I was a Machine Learning Engineering Intern at Mitsubishi Electric Research Laboratories (MERL), working on data-efficient surrogate models for electric machines.</p>
+    <p class="muted">I am advised by <strong>Prof. Yongmin Liu</strong> at Northeastern University in Boston (<a href="https://ymllab.sites.northeastern.edu/our-team/" target="_blank" rel="noopener noreferrer">Liu Lab</a>). Previously, I was a Machine Learning Engineering Intern at Mitsubishi Electric Research Laboratories (MERL), working on data-efficient surrogate models for electric machines.</p>
     <div class="internship">
       <div>
         <strong>Seeking Summer 2027 Internship Opportunities</strong>
@@ -54,7 +54,7 @@ redirect_from:
 </section>
 
 <section class="section" id="experience">
-  <div class="section-header"><h2>Industry Experience</h2><a class="inline-link" href="{{ '/experience/' | relative_url }}">Full experience ↗</a></div>
+  <div class="section-header"><h2>Industry Experience</h2></div>
   <div class="item-list">
     <article class="item">
       <div class="item-date">Jan – May 2026</div>
@@ -63,6 +63,14 @@ redirect_from:
         <div class="meta">Mitsubishi Electric Research Laboratories (MERL) · Cambridge, MA</div>
         <p>Developed schema-guided DistilBERT and LoRA surrogates for permanent-magnet motor performance prediction across multiple design schemas. Explored continual adaptation with a shared backbone and lightweight task-specific adapters.</p>
         <a class="sub-link" href="https://shadow.merl.com/publications/TR2026-157" target="_blank" rel="noopener noreferrer">Related publication ↗</a>
+      </div>
+    </article>
+    <article class="item">
+      <div class="item-date">Jan – Feb 2021</div>
+      <div class="item-copy">
+        <h3>R&amp;D Engineer Assistant</h3>
+        <div class="meta">Chengquan Lanchuang Measurement &amp; Control Technology Co., Ltd. · Xi'an, China</div>
+        <p>Worked on MATLAB-based noise suppression, IQ signal classification, and signal-envelope extraction; designed and debugged an MC1496 circuit board.</p>
       </div>
     </article>
   </div>
