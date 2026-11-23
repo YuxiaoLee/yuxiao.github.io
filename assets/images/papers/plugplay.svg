@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="250" viewBox="0 0 420 250" role="img" aria-label="Conceptual research illustration"><rect width="420" height="250" fill="#f7f9fb"/><g stroke-linecap="round" stroke-linejoin="round">
+<g stroke="#9cb5c5" stroke-width="2" fill="#dceaf0">
+<path d="M74 67L125 49L125 185L74 201Z"/>
+<path d="M170 67L221 49L221 185L170 201Z"/>
+<path d="M266 67L317 49L317 185L266 201Z"/>
+</g>
+<g stroke="#6594ab" stroke-width="2.3" fill="none">
+<path d="M31 123H74M125 123H170M221 123H266M317 123H389"/>
+<path d="M125 86C146 105 147 150 170 164M221 90C240 80 246 164 266 158"/>
+</g>
+<g fill="#88a9bd"><circle cx="97" cy="92" r="7"/><circle cx="97" cy="144" r="7"/><circle cx="193" cy="92" r="7"/><circle cx="193" cy="144" r="7"/><circle cx="289" cy="92" r="7"/><circle cx="289" cy="144" r="7"/></g>
+<path d="M191 26V43M184 35L191 43L198 35" stroke="#d39183" stroke-width="3" fill="none"/>
+</g></svg>
