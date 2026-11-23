@@ -31,7 +31,6 @@ redirect_from:
   </div>
   <div class="portrait-wrap">
     <img class="headshot" src="https://ymllab.sites.northeastern.edu/files/2024/06/abdd3e00b2cfaadb7c89cfe705656cf1.jpg" alt="Portrait of Yuxiao Li from Yongmin Liu's laboratory website" width="166" height="166" decoding="async">
-    <a class="headshot-caption" href="https://ymllab.sites.northeastern.edu/our-team/" target="_blank" rel="noopener noreferrer">Photo: Liu Lab</a>
   </div>
 </section>
 
