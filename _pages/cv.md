@@ -1,48 +1,62 @@
 ---
-layout: single
-title: "Curriculum Vitae"
+layout: profile
 permalink: /cv/
-author_profile: true
+title: "Curriculum Vitae"
+description: "Yuxiao Li's education, research experience, teaching, and technical background."
 redirect_from:
   - /resume
 ---
 
-## Education
+<header class="subhero">
+  <div class="shell"><div class="eyebrow">04 / Background</div><h1>Curriculum vitae<span style="color:#6780e5">.</span></h1><p>Research and technical experience spanning electrical engineering, scientific machine learning, computational photonics, and optical neural networks.</p></div>
+</header>
 
-**Northeastern University** — Boston, MA  
-Ph.D. in Electrical Engineering · 2024–present  
-Advisor: Prof. Yongmin Liu
-
-**Northeastern University** — Boston, MA  
-M.S. in Electrical and Computer Engineering
-
-**Xidian University** — Xi'an, China  
-B.Eng. in Electronic Information Engineering
-
-## Research Experience
-
-**Graduate Researcher · Northeastern University** · 2024–present
-
-- Develop multimodal graph neural networks for coupling-aware near-field prediction in spatially varying metasurfaces.
-- Investigate physics-informed machine learning, Maxwell loss functions, and out-of-distribution generalization in nanophotonics.
-- Use generative and tandem neural models for inverse design of optical responses.
-- Study free-space optical neural networks and spatial-light-modulator-based optical generative systems.
-- Develop transferable machine-learning surrogates for parameterized engineering design.
-
-## Teaching
-
-**EECE 5644 — Introduction to Machine Learning and Pattern Recognition**, Northeastern University.  
-Recitation materials covering Python, statistics, Bayesian classification, regression, regularization, and model evaluation.  
-[Course materials](https://github.com/YuxiaoLee/EECE5644_Recitation)
-
-## Technical Skills
-
-- **Machine Learning:** PyTorch, GNNs, CNNs, Transformers, VAEs, neural surrogates, LoRA, physics-informed learning.
-- **Scientific Computing:** Python, NumPy, SciPy, pandas, scikit-learn, data visualization.
-- **Computational Photonics:** FDTD, metasurface modeling, Maxwell equations, angular-spectrum propagation, optical neural networks.
-
-## Publications
-
-For the current research record, see [Publications]({{ site.baseurl }}/publications/).
-
-**Contact:** [li.yuxiao@northeastern.edu](mailto:li.yuxiao@northeastern.edu)
+<section class="interior-section">
+  <div class="shell cv-grid">
+    <aside class="cv-sidebar" aria-label="CV table of contents">
+      <h3>On this page</h3>
+      <a href="#education">Education</a>
+      <a href="#experience">Research experience</a>
+      <a href="#teaching-cv">Teaching</a>
+      <a href="#skills">Technical skills</a>
+      <a href="#papers-cv">Publications</a>
+    </aside>
+    <div>
+      <section class="cv-section" id="education">
+        <div class="eyebrow">Academic training</div>
+        <h2>Education</h2>
+        <div class="cv-item"><div><h3>Northeastern University</h3><p>Ph.D. in Electrical Engineering<br>Advisor: Prof. Yongmin Liu · Boston, MA</p></div><span class="cv-time">2024 — Present</span></div>
+        <div class="cv-item"><div><h3>Northeastern University</h3><p>M.S. in Electrical and Computer Engineering · Boston, MA</p></div><span class="cv-time">Graduate</span></div>
+        <div class="cv-item"><div><h3>Xidian University</h3><p>B.Eng. in Electronic Information Engineering · Xi'an, China</p></div><span class="cv-time">Undergraduate</span></div>
+      </section>
+      <section class="cv-section" id="experience">
+        <div class="eyebrow">Research</div>
+        <h2>Research experience</h2>
+        <div class="cv-item"><div><h3>Graduate Researcher · Northeastern University</h3><p>Yongmin Liu Research Group · Boston, MA</p>
+        <ul>
+          <li>Develop multimodal graph neural networks to predict coupling-aware electromagnetic fields in spatially varying metasurfaces.</li>
+          <li>Study Maxwell-informed learning, compositional generalization, and neural-surrogate-assisted photonic inverse design.</li>
+          <li>Combine conditional generative models with tandem networks for targeted nanophotonic spectral design.</li>
+          <li>Investigate diffractive optical neural networks and SLM-based optical generative models.</li>
+          <li>Explore adaptable neural surrogates for evolving engineering design schemas.</li>
+        </ul></div><span class="cv-time">2024 — Present</span></div>
+      </section>
+      <section class="cv-section" id="teaching-cv">
+        <div class="eyebrow">Education &amp; mentoring</div>
+        <h2>Teaching</h2>
+        <div class="cv-item"><div><h3>EECE 5644 · Machine Learning and Pattern Recognition</h3><p>Northeastern University · Recitation materials, Python tutorials, probability, regression, and model evaluation.</p><p><a class="text-link" href="https://github.com/YuxiaoLee/EECE5644_Recitation" target="_blank" rel="noopener noreferrer">View course repository ↗</a></p></div></div>
+      </section>
+      <section class="cv-section" id="skills">
+        <div class="eyebrow">Technical background</div>
+        <h2>Skills &amp; tools</h2>
+        <div class="cv-chipline"><span>Python</span><span>PyTorch</span><span>Graph Neural Networks</span><span>Transformers</span><span>Variational Autoencoders</span><span>LoRA</span><span>NumPy / SciPy</span><span>scikit-learn</span><span>FDTD</span><span>Maxwell Equations</span><span>Metasurface Modeling</span><span>Angular-Spectrum Propagation</span><span>Optical Neural Networks</span></div>
+      </section>
+      <section class="cv-section" id="papers-cv">
+        <div class="eyebrow">Scholarly work</div>
+        <h2>Selected publications</h2>
+        <p style="color:#65748a;font-size:14px">For the research record and links to papers, visit the dedicated publications page.</p>
+        <a class="text-link" href="{{ '/publications/' | relative_url }}">View publications <span class="arrow" aria-hidden="true">↗</span></a>
+      </section>
+    </div>
+  </div>
+</section>

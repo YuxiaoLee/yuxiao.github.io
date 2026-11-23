@@ -1,42 +1,60 @@
 ---
-layout: single
-title: "Research"
+layout: profile
 permalink: /research/
-author_profile: true
+title: "Research"
+description: "Research by Yuxiao Li on coupling-aware metasurface modeling, generative photonic inverse design, optical neural networks, and transferable neural surrogates."
 ---
 
-My research connects **AI for photonics** with **photonics for AI**. Some projects below are ongoing research, and are not presented as peer-reviewed publications.
+<header class="subhero">
+  <div class="shell"><div class="eyebrow">01 / Research portfolio</div><h1>Research &amp; projects<span style="color:#6780e5">.</span></h1><p>I work at the intersection of machine learning and physical optics — designing models that understand electromagnetic interactions and photonic systems that process information.</p></div>
+</header>
 
-## Coupling-Aware Metasurface Modeling
-
-Spatially varying metasurfaces exhibit electromagnetic interactions between neighboring meta-atoms. Standard locally periodic approximations can miss these nonlocal effects.
-
-I develop multimodal graph neural networks that fuse **meta-atom geometry** with **isolated unit-cell complex-field priors** to estimate coupled near fields. The framework combines graph-based message passing with field reconstruction and explores Maxwell-informed constraints.
-
-Current questions include transfer between array sizes, generalization to unseen structural combinations, and surrogate-assisted inverse design.
-
-**Keywords:** Graph neural networks · Maxwell equations · near-field prediction · nonlocal metasurfaces
-
-## Generative Nanophotonic Inverse Design
-
-Inverse design of photonic structures is often nonunique: several different geometries and materials can produce related optical responses.
-
-I combine **conditional variational autoencoders (CVAEs)** with **tandem inverse-design networks** to generate multiple candidate structures for requested narrowband transmission responses, including single- and dual-notch filters.
-
-**Publication:** [On-Demand Inverse Design for Narrowband Nanophotonic Structures Based on Generative Model and Tandem Network](https://arxiv.org/abs/2507.14761)
-
-## Optical Neural Networks and Generative Optics
-
-Free-space diffractive optical systems can transform light before it is detected or processed electronically.
-
-My interests include diffractive optical neural networks, experimental spatial-light-modulator (SLM) systems, physically constrained optical generative models, and optical information encoding.
-
-**Background publication:** [Fundamentals and recent developments of free-space optical neural networks](https://doi.org/10.1063/5.0215752)
-
-## Adaptable Neural Surrogates
-
-Scientific machine learning can reduce repeated simulation costs in engineering design, but conventional neural models often assume fixed parameter schemas.
-
-I investigate transferable surrogate models with structured representations, Transformers, and parameter-efficient adaptation (e.g. LoRA), including applications in electric-machine design.
-
-*Descriptions of ongoing projects are research summaries, not publication claims.*
+<section class="interior-section">
+  <div class="shell">
+    <article class="deep-card" id="coupling">
+      <div class="project-art art-gnn">{% include research-art.html kind="gnn" %}</div>
+      <div class="deep-body">
+        <div class="index">01 — PHYSICS-AWARE ARTIFICIAL INTELLIGENCE</div>
+        <h2>Coupling-aware metasurface modeling</h2>
+        <p>Spatially varying metasurfaces exhibit near-field interactions between neighboring meta-atoms, often beyond the locally periodic approximation.</p>
+        <p>I develop multimodal graph neural networks combining <strong>meta-atom geometry</strong> and <strong>isolated unit-cell electromagnetic fields</strong> to predict complex, coupling-aware near fields. Related work explores Maxwell-informed regularization and generalization to new array sizes and unseen structural combinations.</p>
+        <div class="tag-list"><span>Graph Neural Networks</span><span>Maxwell Equations</span><span>Near Fields</span><span>Aperiodic Metasurfaces</span></div>
+        <p class="note">Ongoing research direction.</p>
+      </div>
+    </article>
+    <article class="deep-card" id="generative">
+      <div class="project-art art-generative">{% include research-art.html kind="generative" %}</div>
+      <div class="deep-body">
+        <div class="index">02 — GENERATIVE DESIGN</div>
+        <h2>Generative nanophotonic inverse design</h2>
+        <p>Inverse photonic design can be nonunique: more than one structure may generate the requested optical response. A single deterministic prediction may therefore miss valid alternatives.</p>
+        <p>My work integrates <strong>conditional variational autoencoders</strong> and <strong>tandem networks</strong> to generate candidate nanophotonic structures for target single- and double-notch spectral responses, followed by forward-model screening of their optical behavior.</p>
+        <div class="tag-list"><span>CVAE</span><span>Tandem Networks</span><span>Inverse Design</span><span>Narrowband Filters</span></div>
+        <a class="text-link" href="https://arxiv.org/abs/2507.14761" target="_blank" rel="noopener noreferrer">Read the preprint <span class="arrow" aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="deep-card" id="optical">
+      <div class="project-art art-optical">{% include research-art.html kind="optical" %}</div>
+      <div class="deep-body">
+        <div class="index">03 — OPTICS FOR MACHINE LEARNING</div>
+        <h2>Optical neural networks &amp; generative optics</h2>
+        <p>Diffractive optical components can encode and transform incoming light before digital processing, creating opportunities for new computational architectures.</p>
+        <p>My interests span <strong>free-space optical neural networks</strong>, experimental <strong>spatial-light-modulator (SLM)</strong> systems, and optical generative models where the propagation physics and learning objectives are designed together.</p>
+        <div class="tag-list"><span>Optical Neural Networks</span><span>SLM</span><span>Diffractive Optics</span><span>Generative Models</span></div>
+        <a class="text-link" href="https://doi.org/10.1063/5.0215752" target="_blank" rel="noopener noreferrer">Read related review <span class="arrow" aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="deep-card" id="surrogates">
+      <div class="project-art art-surrogate">{% include research-art.html kind="surrogate" %}</div>
+      <div class="deep-body">
+        <div class="index">04 — ENGINEERING MACHINE LEARNING</div>
+        <h2>Adaptable neural surrogates</h2>
+        <p>Physics simulations are valuable but expensive, and engineering design tasks often change their input parameterization over time.</p>
+        <p>I investigate flexible <strong>neural surrogate models</strong> that represent structured design information and adapt efficiently to new schemas, including Transformer-based approaches and low-rank adaptation in electric-machine design.</p>
+        <div class="tag-list"><span>Scientific ML</span><span>Transformers</span><span>LoRA</span><span>Engineering Design</span></div>
+        <p class="note">Ongoing research direction.</p>
+      </div>
+    </article>
+    <p class="note">Illustrations above are conceptual diagrams; they are not experimental measurements. Research projects are separated from peer-reviewed publications.</p>
+  </div>
+</section>

@@ -1,0 +1,47 @@
+{% if include.kind == "gnn" %}
+<svg viewBox="0 0 500 170" role="img" aria-label="Concept diagram of local graph interactions between meta-atoms" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="gnn-fill" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a2b5ff"/><stop offset="1" stop-color="#506fcb"/></linearGradient></defs>
+  <g stroke="#899fd8" stroke-width="2" opacity=".72">
+    <path d="M105 35L183 74 259 33 341 78 414 39M110 132L183 74 263 137 341 78 418 137M105 35L110 132M183 74L263 137M259 33L341 78M414 39L418 137M183 74L341 78M259 33L263 137" fill="none"/>
+  </g>
+  <g fill="#fff" stroke="#829bd6" stroke-width="2"><circle cx="105" cy="35" r="16"/><circle cx="110" cy="132" r="16"/><circle cx="414" cy="39" r="16"/><circle cx="418" cy="137" r="16"/></g>
+  <g fill="url(#gnn-fill)" stroke="#fff" stroke-width="3"><circle cx="183" cy="74" r="19"/><circle cx="259" cy="33" r="19"/><circle cx="263" cy="137" r="19"/><circle cx="341" cy="78" r="19"/></g>
+  <circle cx="263" cy="86" r="27" fill="#d5dfff" stroke="#8295d0" stroke-dasharray="3 5"/><circle cx="263" cy="86" r="10" fill="#4869d7"/>
+  <path d="M50 151H450" stroke="#c2cfeb" stroke-width="1" stroke-dasharray="3 5"/>
+</svg>
+{% elsif include.kind == "generative" %}
+<svg viewBox="0 0 500 170" role="img" aria-label="Illustrative narrowband transmission curves with dual optical notches" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="#c1e0e3" stroke-width="1"><path d="M55 25V144H460" fill="none"/><path d="M55 55H460M55 88H460M55 120H460" stroke-dasharray="3 5"/></g>
+  <path d="M58 49C95 48 115 47 136 51C158 57 164 128 177 133C193 140 194 52 211 51C235 50 269 49 286 54C302 59 305 113 322 122C339 132 341 52 359 50C386 47 412 48 455 48" fill="none" stroke="#408aab" stroke-width="4" stroke-linecap="round"/>
+  <path d="M58 44C108 44 145 44 154 52C164 67 168 120 180 127C190 132 196 48 212 45C263 43 286 44 302 52C310 64 311 108 325 116C341 118 346 45 365 44C400 43 427 44 455 44" fill="none" stroke="#63cfc5" stroke-width="2.4" stroke-dasharray="6 7" stroke-linecap="round"/>
+  <g fill="#56869e" font-family="Arial,sans-serif" font-size="10"><text x="20" y="34">T</text><text x="444" y="160">λ</text><text x="75" y="18">TARGET SPECTRUM</text></g>
+  <g fill="#63cfc5"><circle cx="180" cy="128" r="5"/><circle cx="325" cy="117" r="5"/></g>
+</svg>
+{% elsif include.kind == "optical" %}
+<svg viewBox="0 0 500 170" role="img" aria-label="Illustrative optical beam passing through three diffractive planes" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#7962d5" stop-opacity=".14"/><stop offset=".55" stop-color="#9287f3" stop-opacity=".55"/><stop offset="1" stop-color="#79d8df" stop-opacity=".24"/></linearGradient></defs>
+  <path d="M48 84L459 25V145Z" fill="url(#beam)"/>
+  <path d="M45 85C113 43 139 123 204 85C271 43 309 127 376 84C410 58 430 79 461 85" stroke="#7d70d1" stroke-width="3" fill="none"/>
+  <path d="M45 95C115 53 145 135 209 95C278 54 318 134 381 95C410 73 442 89 461 95" stroke="#70c8d4" stroke-width="2" fill="none"/>
+  <g stroke="#8277ce" stroke-width="2" fill="#fff" fill-opacity=".54">
+    <path d="M163 28L181 19V145L163 154Z"/>
+    <path d="M277 28L295 19V145L277 154Z"/>
+    <path d="M386 28L404 19V145L386 154Z"/>
+  </g>
+  <g stroke="#9e95dc" stroke-width="2" opacity=".8"><path d="M166 43L177 38M166 61L177 56M166 79L177 74M166 97L177 92M166 115L177 110M280 43L292 36M280 61L292 54M280 79L292 72M280 97L292 90M280 115L292 108M389 43L401 36M389 61L401 54M389 79L401 72M389 97L401 90M389 115L401 108"/></g>
+  <g fill="#6c679f" font-size="10" font-family="Arial,sans-serif"><text x="32" y="31">IN</text><text x="441" y="31">OUT</text></g>
+</svg>
+{% elsif include.kind == "surrogate" %}
+<svg viewBox="0 0 500 170" role="img" aria-label="Diagram showing multiple engineering schemas mapping to one neural surrogate" xmlns="http://www.w3.org/2000/svg">
+  <g font-family="Arial,sans-serif" font-size="11" font-weight="bold">
+    <rect x="65" y="24" width="92" height="27" rx="8" fill="#d6e2f8"/><text x="111" y="42" fill="#47618f" text-anchor="middle">SCHEMA D0</text>
+    <rect x="65" y="70" width="92" height="27" rx="8" fill="#d6e2f8"/><text x="111" y="88" fill="#47618f" text-anchor="middle">SCHEMA D1</text>
+    <rect x="65" y="116" width="92" height="27" rx="8" fill="#d6e2f8"/><text x="111" y="134" fill="#47618f" text-anchor="middle">SCHEMA D2</text>
+  </g>
+  <g stroke="#a7bddd" stroke-width="2" fill="none"><path d="M157 38L232 82M157 84L232 84M157 130L232 86M338 85H410"/></g>
+  <rect x="229" y="47" width="108" height="75" rx="12" fill="#6b87c8"/><rect x="239" y="57" width="88" height="55" rx="8" stroke="#d2dcf7" stroke-dasharray="3 4" fill="none"/>
+  <g fill="#e2edff"><circle cx="258" cy="73" r="6"/><circle cx="282" cy="73" r="6"/><circle cx="307" cy="73" r="6"/><circle cx="258" cy="96" r="6"/><circle cx="282" cy="96" r="6"/><circle cx="307" cy="96" r="6"/></g>
+  <g fill="#5b75ab"><rect x="411" y="58" width="35" height="10" rx="5"/><rect x="411" y="79" width="43" height="10" rx="5"/><rect x="411" y="100" width="27" height="10" rx="5"/></g>
+  <text x="284" y="142" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#7289af">SHARED BACKBONE</text>
+</svg>
+{% endif %}
