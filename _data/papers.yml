@@ -5,8 +5,6 @@
   title: "Schema-Guided BERT-LoRA Framework for Continual Surrogate Modeling of Surface Permanent Magnet Motors"
   authors: "Yuxiao Li, Toshiaki Koike-Akino, Ye Wang, Tatsuya Yamamoto, Yusuke Sakamoto, Bingnan Wang"
   url: "https://www.merl.com/publications/TR2026-157"
-  image: "/assets/images/papers/motor-surrogate.svg"
-  image_alt: "Conceptual illustration of a motor and an adaptable neural surrogate"
 - id: "prb"
   year: 2026
   type: "Journal & Conference"
@@ -14,8 +12,6 @@
   title: "Unsupervised learning for non-Hermitian systems with higher-order hopping"
   authors: "Taeyoon Kim, Yihao Xu, Yuxiao Li, Alexander Montes McNeil, Allen Zhang, Michael Moebius, Sunil Mittal, Yongmin Liu"
   url: "https://doi.org/10.1103/r3kn-d8ly"
-  image: "/assets/images/papers/nonhermitian.svg"
-  image_alt: "Conceptual illustration of coupled non-Hermitian spectral branches"
 - id: "apr"
   year: 2026
   type: "Journal & Conference"
@@ -23,8 +19,6 @@
   title: "Exceptional points in plasmonics: Fundamentals, platforms, and applications"
   authors: "Taeyoon Kim, Yuxiao Li, Yongmin Liu"
   url: "https://doi.org/10.1063/5.0304955"
-  image: "/assets/images/papers/plasmonics.svg"
-  image_alt: "Conceptual illustration of plasmonic resonances"
 - id: "ct"
   year: 2025
   type: "Journal & Conference"
@@ -32,8 +26,6 @@
   title: "CT-PatchTST: Channel-Time Patch Time-Series Transformer for Long-Term Renewable Energy Forecasting"
   authors: "Kuan Lu, Menghao Huo, Yuxiao Li, Qiang Zhu, Zhenrui Chen"
   url: "https://doi.org/10.1109/ISCIPT67144.2025.11265471"
-  image: "/assets/images/papers/patchtst.svg"
-  image_alt: "Conceptual multichannel time-series forecasting plot"
 - id: "dit"
   year: 2025
   type: "Journal & Conference"
@@ -41,8 +33,6 @@
   title: "Image-to-Image Translation with Diffusion Transformers and CLIP-Based Image Conditioning"
   authors: "Qiang Zhu, Kuan Lu, Menghao Huo, Yuxiao Li"
   url: "https://doi.org/10.1109/CVIDL65390.2025.11085477"
-  image: "/assets/images/papers/translation.svg"
-  image_alt: "Conceptual illustration of image-to-image translation"
 - id: "jap"
   year: 2024
   type: "Journal & Conference"
@@ -50,17 +40,6 @@
   title: "Fundamentals and recent developments of free-space optical neural networks"
   authors: "Alexander Montes McNeil, Yuxiao Li, Allen Zhang, Michael Moebius, Yongmin Liu"
   url: "https://doi.org/10.1063/5.0215752"
-  external_image: "https://aip.brightspotcdn.com/dims4/default/679a17f/2147483647/strip/true/crop/960x540%2B0%2B0/resize/1440x810%21/quality/90/?url=https%3A%2F%2Fk1-prod-aip.s3.us-east-2.amazonaws.com%2Fbrightspot%2F8c%2F14%2F37b00f8c43519e8c45f2d74f7679%2F4a8fb7070a554c55a17ce7c6ea8a19be"
-  image_alt: "Figure from AIP's Science Highlights article comparing optical and electronic neural network architectures"
-- id: "oea"
-  year: 2024
-  type: "Journal & Conference"
-  venue: "Opto-Electronic Advances"
-  title: "Reconfigurable optical neural networks with Plug-and-Play metasurfaces"
-  authors: "Yongmin Liu, Yuxiao Li"
-  url: "https://doi.org/10.29026/oea.2024.240057"
-  image: "/assets/images/papers/plugplay.svg"
-  image_alt: "Conceptual schematic of interchangeable metasurface layers"
 - id: "cvae"
   year: 2025
   type: "Preprint"
@@ -68,5 +47,3 @@
   title: "On-Demand Inverse Design for Narrowband Nanophotonic Structures Based on Generative Model and Tandem Network"
   authors: "Yuxiao Li, Taeyoon Kim, Allen Zhang, Zengbo Wang, Yongmin Liu"
   url: "https://arxiv.org/abs/2507.14761"
-  image: "/assets/images/papers/inverse-design.svg"
-  image_alt: "Conceptual narrowband transmission response with two notches"
