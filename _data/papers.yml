@@ -5,6 +5,8 @@
   title: "Schema-Guided BERT-LoRA Framework for Continual Surrogate Modeling of Surface Permanent Magnet Motors"
   authors: "Yuxiao Li, Toshiaki Koike-Akino, Ye Wang, Tatsuya Yamamoto, Yusuke Sakamoto, Bingnan Wang"
   url: "https://www.merl.com/publications/TR2026-157"
+  figure_path: "/assets/images/papers/merl-fig2.webp"
+  figure_alt: "Original Fig. 2, text-based motor surrogate model workflow, cropped from the IECON 2026 conference presentation"
 - id: "prb"
   year: 2026
   type: "Journal & Conference"
@@ -47,3 +49,5 @@
   title: "On-Demand Inverse Design for Narrowband Nanophotonic Structures Based on Generative Model and Tandem Network"
   authors: "Yuxiao Li, Taeyoon Kim, Allen Zhang, Zengbo Wang, Yongmin Liu"
   url: "https://arxiv.org/abs/2507.14761"
+  figure_path: "/assets/images/papers/cvae-design-gallery-single.svg"
+  figure_alt: "Original single-notch inverse design results from the CVAE–Tandem research repository"

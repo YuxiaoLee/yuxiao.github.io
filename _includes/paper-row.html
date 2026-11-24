@@ -1,8 +1,12 @@
 {% assign p = include.paper %}
-<article class="paper-row paper-row--text">
-  {% if p.figure_url %}
+<article class="paper-row{% if p.figure_path or p.figure_url %} has-figure{% else %} no-figure{% endif %}">
+  {% if p.figure_path or p.figure_url %}
   <a class="paper-thumbnail" href="{{ p.url }}" target="_blank" rel="noopener noreferrer" aria-label="Open paper: {{ p.title | escape }}">
+    {% if p.figure_path %}
+    <img src="{{ p.figure_path | relative_url }}" alt="{{ p.figure_alt | escape }}" loading="lazy" width="152" height="98">
+    {% else %}
     <img src="{{ p.figure_url }}" alt="{{ p.figure_alt | escape }}" loading="lazy" width="152" height="98">
+    {% endif %}
   </a>
   {% endif %}
   <div class="paper-summary">

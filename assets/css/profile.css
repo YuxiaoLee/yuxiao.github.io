@@ -163,3 +163,8 @@ p{margin:0 0 15px}
   .merl-row{grid-template-columns:1fr;gap:14px}
   .merl-logo{width:145px}
 }
+
+/* Display actual publication figure excerpts when available; never reserve space for absent figures. */
+.paper-row.no-figure{display:block;padding-left:0}
+.paper-row.has-figure .paper-thumbnail{background:#fff}
+.paper-row.has-figure .paper-thumbnail img{object-fit:contain}
